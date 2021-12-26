@@ -1,0 +1,15 @@
+ a=imread('C:\Users\Inspiron\Desktop\pepper.png');
+b=double(a)/255;
+c=1
+i=c*b.^(0.4);
+subplot(2,2,1)
+imshow(i);
+i=c*b.^(0.8);
+subplot(2,2,2)
+imshow(i);
+i=c*b.^(1.0);
+subplot(2,2,3)
+imshow(i);
+i=c*b.^(1.5);
+subplot(2,2,4)
+imshow(i);
